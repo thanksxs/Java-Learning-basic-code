@@ -6,13 +6,13 @@ public class ForDemo3 {
         int a = 0;
         int b =1 ;
         int c;
-        for(int i=1;i<=10;i++){
-            if (i==1) continue;
-            else{
-                c=b;
-                b+=a;
-                a=c;
-            }
+        for(int i=1;i<=9;i++){
+//            if (i==1) continue;
+//            else{
+            c=b;
+            b+=a;
+            a=c;
+//            }
         }
         System.out.println("第十项为："+a);
     }

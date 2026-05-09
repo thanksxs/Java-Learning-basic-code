@@ -9,7 +9,7 @@ public class SwitchDemo1 {
         System.out.println("请输入月份：");
         int month = sc.nextInt();
 
-        /*switch(month){
+/*        switch(month){
             case 1:
             case 2:
             case 12:

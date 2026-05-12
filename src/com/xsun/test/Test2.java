@@ -4,7 +4,7 @@ import static java.lang.Math.min;
 
 public class Test2 {
     static void main(String[] args) {
-        int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 3};
         baolifa(height);
 
     }
@@ -48,5 +48,15 @@ public class Test2 {
         }
 
         System.out.println(total);
+    }
+
+    //方法2：黑马 只从左边流走 只从右边流走 保留两个数组的最小值
+    //再减去柱子的高度
+    public static void heimafa(int[] height) {
+    }
+
+    //方法3：单调栈
+    public static void dandiaozhan(int[] height){
+
     }
 }
